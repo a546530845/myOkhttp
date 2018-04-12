@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MyOkHttpFramWork</string>
+
+    <!--httpnet show text-->
+    <string name="http_timeout">网络不稳定，请稍后再试</string>
+    <!--<string name="http_cantConnect_hb">暂时连不上服务器</string>//net connect exception-->
+    <!--<string name="http_sessionOverTime_hb">登录超时，请重新登录</string>-->
+    <!--<string name="http_server_error_again_hb">服务器连接错误，请重试</string>//405 500-->
+    <!--<string name="http_server_error_404_hb">服务器连接失败，请稍候重试</string>//404-->
+    <string name="http_cantConnect">网络请求失败，请稍后再试</string>//net connect exception
+    <string name="http_sessionOverTime">登录超时，请重新登录</string>
+    <string name="http_server_error_again">网络请求失败，请稍后再试</string>//405 500
+    <string name="http_server_error_404">网络请求失败，请稍后再试</string>//404
+    <string name="http_server_error_httpretry">网络请求失败，重连发生错误</string>
+    <string name="http_server_error_NoRouteToHost">网络请求失败，没有路由到主机</string>
+    <string name="http_server_error_PortUnreachable">网络请求失败，端口不能读取</string>
+    <string name="http_server_error_Protocol">网络请求失败，协议错误</string>
+    <string name="http_server_error_SecurityException">网络请求失败，您有权限未开启</string>
+</resources>
